@@ -18,6 +18,9 @@ LOCAL_PATH := $(call my-dir)
 
 ifneq ($(filter a3xelte a5xelte a7xelte gvwifi gvlte j7elte s5neolte,$(TARGET_DEVICE)),)
 
+
+ifeq ($(WITH_EXYNOS_BSP),)
+endif
 include $(CLEAR_VARS)
 LOCAL_MODULE := libGLES_mali
 LOCAL_MODULE_OWNER := samsung
