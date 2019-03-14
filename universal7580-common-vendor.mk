@@ -20,6 +20,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7580-common/proprietary/bin/gpsd:system/bin/gpsd \
     vendor/samsung/universal7580-common/proprietary/lib/hw/gps.universal7580.so:system/lib/hw/gps.universal7580.so \
     vendor/samsung/universal7580-common/proprietary/lib/libaptX_encoder.so:system/lib/libaptX_encoder.so \
+    vendor/samsung/universal7580-common/proprietary/lib/libaptXHD_encoder.so:system/lib/libaptXHD_encoder.so \
     vendor/samsung/universal7580-common/proprietary/lib/libfloatingfeature.so:system/lib/libfloatingfeature.so \
     vendor/samsung/universal7580-common/proprietary/lib/libhwjpeg.so:system/lib/libhwjpeg.so \
     vendor/samsung/universal7580-common/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so \
